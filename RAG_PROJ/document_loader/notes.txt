@@ -1,0 +1,21 @@
+Downloading Python
+python.org
+01
+For downloading python go on any browser go to 
+and download python for your operating 
+system
+Now install it and you will get the python Virtual machine 
+which will convert the code to byte code.
+Downloading IDE
+IDE stands for Integrated Development Environment
+You can write and run your code using python virtual 
+machine
+But the Conventional way is to use a IDE there are many 
+IDE’s like VS code, Pycharm, Jupyter
+But we will use 
+VS code.
+Setting up and creating first program
+For setting up we have to go to VS code and in extensions 
+we have to install python and code runner
+Lets move forward and create our first program and that 
+will not be hello world

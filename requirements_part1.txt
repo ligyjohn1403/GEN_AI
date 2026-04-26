@@ -1,0 +1,43 @@
+# LangChain core
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+
+# Mistral AI integration
+langchain-mistralai>=0.2.0
+mistralai>=1.0.3
+
+transformers>=4.44.2
+huggingface_hub>=0.24.6
+tokenizers>=0.20.0
+
+# API & server
+fastapi==0.112.2
+uvicorn==0.30.6
+
+# Embeddings & Vector DB
+sentence-transformers>=3.0.1
+chromadb==0.4.24
+
+# Document loaders & parsing
+pypdf==4.3.1
+python-docx==1.1.2
+unstructured==0.14.10
+beautifulsoup4==4.12.3
+
+# Text splitting & utilities
+tiktoken>=0.7.0
+
+# UI
+streamlit==1.37.1
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# Logging & debugging
+loguru==0.7.2
+
+zstandard==0.22.0

@@ -1,24 +1,54 @@
+langchain
+langchain-core
+langchain-community
 
-# LangChain core
-langchain>=0.2.0
-langchain-core>=0.2.0
-langchain-community>=0.2.0
-langchain-huggingface==0.0.3
-#langchain-mistralai>=0.1.0
+# LLM Providers
 
-transformers==4.44.2
-huggingface_hub==0.24.6
+langchain-openai
+langchain-mistralai
+langchain-huggingface
 
+mistralai
 
-# API & server
-fastapi>=0.110.0
-uvicorn>=0.29.0
+# Vector Database
 
-# Vector store / embeddings
-faiss-cpu>=1.7.4
+chromadb
+
+# Embedding Models
+
+sentence-transformers
+langchain-text-splitters
+
+# Document Loaders dependencies
+
+pypdf
+unstructured
+beautifulsoup4
+lxml
+
+# Text Processing
+
+tiktoken
+
+# Environment Variables
+
+python-dotenv
+
+# Data Handling
+
+pandas
+numpy
+
+# API / App Layer (optional but common in RAG apps)
+
+fastapi
+uvicorn
+
+# UI (optional)
+
+streamlit
 
 # Utilities
-python-dotenv>=1.0.0
-requests>=2.31.0
-tiktoken>=0.7.0
-pydantic>=2.0.0
+
+tqdm
+requests
